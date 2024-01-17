@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Java-s S0N</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your packet is Delivered Here...</h1>
+  </header>
+  <p>Receive the broken flags assemble it and submit it...</p>
+  <p>You can easily get your points</p>
+  <p>Happy Hacking!!!</p>
+
+  <div class="container" id="jsonContainer">
+
+    <p>JSON Packet:</p>
+    <script>
+      // Display the JSON packet in the new page
+      const jsonData = {
+        key1: "SaMsuNG_",
+        key2: "970_EvO_PluS",
+        key3: "SSd_ArE_Soo_FaST"
+      };
+
+      const jsonContainer = document.getElementById("jsonContainer");
+      jsonContainer.innerHTML = `<pre>${JSON.stringify(jsonData, null, 2)}</pre>`;
+    </script>
+  </div>
+</body>
+</html>
